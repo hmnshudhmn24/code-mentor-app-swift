@@ -1,4 +1,4 @@
-# 🧠 Code Mentor Swift
+# 🧠 Code Mentor
 
 An intelligent code review assistant for macOS that analyzes Swift code using AST parsing and AI. Provides instant feedback on code quality, detects memory issues, suggests performance improvements, and enforces custom lint rules directly in Xcode or as a standalone app.
 
@@ -453,45 +453,3 @@ swift test --enable-code-coverage
 - [ ] CI/CD integration
 - [ ] VSCode extension
 - [ ] Cloud sync
-
-## 🤝 Contributing
-
-Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md)
-
-Areas for contribution:
-- New lint rules
-- AI prompt optimization
-- Performance improvements
-- Documentation
-- Test coverage
-
-## 📄 License
-
-Apache License 2.0 - see [LICENSE](LICENSE)
-
-## 🙏 Acknowledgments
-
-- SwiftSyntax team at Apple
-- OpenAI and Anthropic for AI APIs
-- Swift community
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/yourusername/code-mentor-swift/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/code-mentor-swift/discussions)
-
-## ⚠️ Disclaimer
-
-This tool provides suggestions and analysis. Always review AI-generated recommendations carefully. Not all suggestions may be appropriate for your specific use case.
-
-## 🎓 Learning Resources
-
-- [SwiftSyntax Documentation](https://github.com/apple/swift-syntax)
-- [Swift AST Explorer](https://swift-ast-explorer.com)
-- [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
-
----
-
-**Built with ❤️ and Swift | Making code review intelligent**
-
-🧠 **Powered by AI. Driven by best practices.**
