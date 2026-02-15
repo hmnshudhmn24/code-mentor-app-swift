@@ -1,0 +1,196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+/* Begin PBXBuildFile section */
+		/* App */
+		AA0001 /* CodeMentorApp.swift */ = {isa = PBXBuildFile; };
+		/* Models */
+		AA0010 /* Issue.swift */ = {isa = PBXBuildFile; };
+		AA0011 /* AnalysisResult.swift */ = {isa = PBXBuildFile; };
+		/* Analysis */
+		AA0020 /* CodeAnalyzer.swift */ = {isa = PBXBuildFile; };
+		AA0021 /* MemoryLeakDetector.swift */ = {isa = PBXBuildFile; };
+		AA0022 /* PerformanceAnalyzer.swift */ = {isa = PBXBuildFile; };
+		AA0023 /* ComplexityAnalyzer.swift */ = {isa = PBXBuildFile; };
+		/* Lint Rules */
+		AA0030 /* RuleEngine.swift */ = {isa = PBXBuildFile; };
+		/* AI */
+		AA0040 /* AIServices.swift */ = {isa = PBXBuildFile; };
+		/* Views */
+		AA0050 /* MainView.swift */ = {isa = PBXBuildFile; };
+		AA0051 /* AnalysisResultView.swift */ = {isa = PBXBuildFile; };
+		AA0052 /* SettingsView.swift */ = {isa = PBXBuildFile; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC0001 /* CodeMentor.app */ = {isa = PBXFileReference; };
+		BB0001 /* CodeMentorApp.swift */ = {isa = PBXFileReference; };
+		BB0012 /* Info.plist */ = {isa = PBXFileReference; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0001 = {
+			isa = PBXGroup;
+			children = (
+				EE0002 /* CodeMentor */,
+				EE0003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0002 /* CodeMentor */ = {
+			isa = PBXGroup;
+			children = (
+				BB0012 /* Info.plist */,
+				EE0004 /* App */,
+				EE0005 /* Views */,
+				EE0006 /* Models */,
+				EE0007 /* Analysis */,
+				EE0008 /* LintRules */,
+				EE0009 /* AI */,
+			);
+			path = CodeMentor;
+			sourceTree = "<group>";
+		};
+		EE0003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC0001 /* CodeMentor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0001 /* CodeMentor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0002;
+			buildPhases = (
+				FF0003 /* Sources */,
+				DD0001 /* Frameworks */,
+				FF0004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeMentor;
+			productName = CodeMentor;
+			productReference = CC0001 /* CodeMentor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		GG0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = GG0002;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			mainGroup = EE0001;
+			productRefGroup = EE0003 /* Products */;
+			projectDirPath = "";
+			targets = (
+				FF0001 /* CodeMentor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		HH0001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		HH0002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		HH0003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodeMentor/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codementor.CodeMentor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				COMBINE_HIDPI_IMAGES = YES;
+			};
+			name = Debug;
+		};
+		HH0004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CodeMentor/Info.plist;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codementor.CodeMentor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				COMBINE_HIDPI_IMAGES = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		GG0002 /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HH0001 /* Debug */,
+				HH0002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0002 /* Build configuration list */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HH0003 /* Debug */,
+				HH0004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = GG0001 /* Project object */;
+}
